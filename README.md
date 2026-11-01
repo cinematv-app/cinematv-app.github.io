@@ -1,3 +1,6 @@
-# bjorndegroot.github.io
+# Cinema TV
 
-Statische pagina's voor persoonlijke projecten. Cinema TV: [homepage](https://bjorndegroot.github.io/cinema/) · [privacy](https://bjorndegroot.github.io/cinema/privacy/).
+Homepage en privacyverklaring van Cinema TV, een persoonlijke app voor Android TV.
+
+- Homepage: https://cinematv-app.github.io/
+- Privacy: https://cinematv-app.github.io/privacy/
