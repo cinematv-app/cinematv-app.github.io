@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cinema TV · Privacy</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<p class="brand"><a href="../">CINEMA TV</a></p>
+<h1>Privacyverklaring</h1>
+<p class="meta">Versie 1 · 1 november 2026</p>
+
+<p>Cinema TV is een persoonlijke app voor Android TV. Hij toont films, series en voetbalwedstrijden uit je eigen
+IPTV-abonnement en houdt bij wat je kijkt. De app wordt niet in een appwinkel aangeboden en heeft geen eigen server.
+Er worden geen advertenties getoond, en er is geen tracking of analytics.</p>
+
+<h2>Google Drive</h2>
+<p>Alleen als je dat zelf kiest, koppelt Cinema TV met je Google-account. De app vraagt dan uitsluitend het bereik
+<code>https://www.googleapis.com/auth/drive.appdata</code>. Daarmee kan Cinema TV alleen bestanden lezen en schrijven in
+zijn eigen verborgen app-map in jouw Google Drive. De app kan je andere bestanden in Drive niet zien, openen of wijzigen.</p>
+<p>In die app-map zet elke gekoppelde tv één bestand met je kijklijst:</p>
+<ul>
+<li>titels, jaartal, filmnummer van TMDB en posteradres van films en series die je hebt bekeken of in Mijn lijst hebt gezet;</li>
+<li>bij series de naam van de laatst bekeken aflevering;</li>
+<li>je kijkpositie, de duur, of iets is uitgekeken, en tijdstempels van die wijzigingen;</li>
+<li>een willekeurige code per tv, zodat de tv's elkaars bestand herkennen.</li>
+</ul>
+<p>Deze gegevens gaan alleen tussen jouw tv en jouw eigen Google Drive heen en weer. Ze worden niet naar de maker van de
+app of naar anderen gestuurd, niet verkocht en niet voor advertenties gebruikt. Je IPTV-link, wachtwoorden en andere
+instellingen worden nooit naar Drive gestuurd.</p>
+<p>Het gebruik van informatie die via Google API's wordt ontvangen, voldoet aan het
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+inclusief de eisen voor beperkt gebruik (<em>Limited Use</em>).</p>
+
+<h2>Op de tv zelf</h2>
+<p>Je IPTV-link, de tv-gids-link en de koppeling met Google worden versleuteld op de tv opgeslagen (Android Keystore).
+Ze komen niet in back-ups of logbestanden. Je kijklijst staat ook lokaal op de tv, ook zonder Google-koppeling.</p>
+
+<h2>Diensten die de tv rechtstreeks gebruikt</h2>
+<p>Voor het tonen van titels, afbeeldingen en wedstrijden haalt de tv openbare gegevens op bij TMDB (film- en
+seriegegevens, en waar een titel te streamen is, met gegevens van JustWatch) en bij ESPN (wedstrijdschema's). Trailers
+openen in YouTube. Daarbij stuurt de tv alleen wat nodig is voor de zoekvraag, zoals een titel of filmnummer, maar geen
+kijkgeschiedenis. Films, series, zenders en de tv-gids komen van je eigen IPTV-aanbieder, met de link die je zelf hebt
+ingesteld. Voor al deze diensten geldt hun eigen privacybeleid.</p>
+
+<h2>Verwijderen en intrekken</h2>
+<ul>
+<li>Ontkoppelen op de tv: <em>Cinema › instellingen › Google Drive ontkoppelen</em>.</li>
+<li>Toegang intrekken: <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> › Cinema TV › verwijderen.</li>
+<li>De gegevens in Drive wissen: Google Drive › Instellingen › Apps beheren › Cinema TV › Opties › Verborgen app-gegevens verwijderen.</li>
+<li>Gegevens op de tv wissen: Instellingen van de tv › Apps › Cinema › Gegevens wissen.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Vragen over deze verklaring kun je stellen via
+<a href="https://github.com/bjorndegroot/bjorndegroot.github.io/issues">GitHub-issues</a>.</p>
+
+<h2 lang="en">Summary in English</h2>
+<p lang="en">Cinema TV is a personal Android TV app without its own server, ads or analytics. If you choose to connect
+Google Drive, it requests only the <code>drive.appdata</code> scope and stores one watchlist file per TV (titles, TMDB
+ids, poster paths, last episode, playback position and timestamps) in its own hidden app-data folder in your Drive. It
+cannot access your other files. This data is never sent to the developer or anyone else. The use of information received
+from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. You can
+disconnect in the app's settings and revoke access at myaccount.google.com/connections.</p>
+</main>
+</body>
+</html>
