@@ -10,7 +10,7 @@
 <main>
 <p class="brand"><a href="../">CINEMA TV</a></p>
 <h1>Privacyverklaring</h1>
-<p class="meta">Versie 1 · 1 november 2026</p>
+<p class="meta">Versie 2 · 1 november 2026</p>
 
 <p>Cinema TV is een persoonlijke app voor Android TV. Hij toont films, series en voetbalwedstrijden uit je eigen
 IPTV-abonnement en houdt bij wat je kijkt. De app wordt niet in een appwinkel aangeboden en heeft geen eigen server.
@@ -18,9 +18,11 @@ Er worden geen advertenties getoond, en er is geen tracking of analytics.</p>
 
 <h2>Google Drive</h2>
 <p>Alleen als je dat zelf kiest, koppelt Cinema TV met je Google-account. De app vraagt dan uitsluitend het bereik
-<code>https://www.googleapis.com/auth/drive.appdata</code>. Daarmee kan Cinema TV alleen bestanden lezen en schrijven in
-zijn eigen verborgen app-map in jouw Google Drive. De app kan je andere bestanden in Drive niet zien, openen of wijzigen.</p>
-<p>In die app-map zet elke gekoppelde tv één bestand met je kijklijst:</p>
+<code>https://www.googleapis.com/auth/drive.file</code>. Daarmee kan Cinema TV alleen bestanden en mappen lezen en
+schrijven die het zelf in jouw Google Drive heeft aangemaakt. De app kan je andere bestanden in Drive niet zien, openen of
+wijzigen.</p>
+<p>Cinema TV maakt in je Drive een map <strong>Cinema TV</strong>. Daarin zet elke gekoppelde tv één bestand met je
+kijklijst:</p>
 <ul>
 <li>titels, jaartal, filmnummer van TMDB en posteradres van films en series die je hebt bekeken of in Mijn lijst hebt gezet;</li>
 <li>bij series de naam van de laatst bekeken aflevering;</li>
@@ -49,7 +51,7 @@ ingesteld. Voor al deze diensten geldt hun eigen privacybeleid.</p>
 <ul>
 <li>Ontkoppelen op de tv: <em>Cinema › instellingen › Google Drive ontkoppelen</em>.</li>
 <li>Toegang intrekken: <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a> › Cinema TV › verwijderen.</li>
-<li>De gegevens in Drive wissen: Google Drive › Instellingen › Apps beheren › Cinema TV › Opties › Verborgen app-gegevens verwijderen.</li>
+<li>De gegevens in Drive wissen: verwijder de map <strong>Cinema TV</strong> in je Google Drive.</li>
 <li>Gegevens op de tv wissen: Instellingen van de tv › Apps › Cinema › Gegevens wissen.</li>
 </ul>
 
@@ -59,9 +61,9 @@ ingesteld. Voor al deze diensten geldt hun eigen privacybeleid.</p>
 
 <h2 lang="en">Summary in English</h2>
 <p lang="en">Cinema TV is a personal Android TV app without its own server, ads or analytics. If you choose to connect
-Google Drive, it requests only the <code>drive.appdata</code> scope and stores one watchlist file per TV (titles, TMDB
-ids, poster paths, last episode, playback position and timestamps) in its own hidden app-data folder in your Drive. It
-cannot access your other files. This data is never sent to the developer or anyone else. The use of information received
+Google Drive, it requests only the <code>drive.file</code> scope and stores one watchlist file per TV (titles, TMDB
+ids, poster paths, last episode, playback position and timestamps) in a "Cinema TV" folder it creates in your Drive. It
+can only access files it created itself, not your other files. This data is never sent to the developer or anyone else. The use of information received
 from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. You can
 disconnect in the app's settings and revoke access at myaccount.google.com/connections.</p>
 </main>
